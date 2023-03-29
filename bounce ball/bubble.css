@@ -1,0 +1,143 @@
+*/{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.rect{
+    width: 40%;
+    height: 40px;
+    background: b;
+    margin: auto;
+    border: 3px solid white;
+}
+.red{
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 570px;
+    top: 100px;
+    animation-fill-mode: forwards;
+    animation-name: tet;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    transition-timing-function: linear; */
+ }
+ @keyframes tet{
+     0%{top: 100px;}
+     50%{top: 256px;}
+     
+}
+.yellow{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    left: 680px;
+    top: 100px;
+    animation-fill-mode: forwards;
+    animation-name: tet;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-timing-function:inherit;
+    animation-iteration-count: infinite;
+ }
+ @keyframes tet{
+     0%{top: 100px;}
+     50%{top: 256px;}
+
+}
+.green{
+    height: 80px;
+    width: 80px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    right: 660px;
+    top: 100px;
+    animation-fill-mode: forwards;
+    animation-name: tet;
+    animation-duration: 1.5s;
+    animation-timing-function:inherit;
+    animation-iteration-count: infinite;
+ }
+ @keyframes tet{
+     0%{top: 100px;}
+     50%{top: 256px;}
+}
+.blue{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 50%;
+   position: absolute;
+   right: 560px;
+   top: 100px;
+   animation-fill-mode: forwards;
+   animation-name: tet;
+   animation-duration: 2s;
+   animation-timing-function:inherit;
+   animation-iteration-count: infinite;
+}
+@keyframes tet{
+    0%{top: 100px;}
+    50%{top: 256px;}
+}
+.grey{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(27, 176, 213);
+    border-radius: 50%;
+   position: absolute;
+   right: 450px;
+   top: 100px;
+   animation-fill-mode: forwards;
+   animation-name: tet;
+   animation-duration: 1s;
+   animation-delay: 0.5s;
+   animation-timing-function:inherit;
+   animation-iteration-count: infinite;
+}
+@keyframes tet{
+    0%{top: 100px;}
+    50%{top: 256px;}
+}
+
+.brown{
+    height: 80px;
+    width: 80px;
+    background-color: burlywood;
+    border-radius: 50%;
+   position: absolute;
+   top: 100px;
+  animation-fill-mode: forwards;
+   animation-name: tet;
+   animation-duration: 1.7s;
+   animation-timing-function:inherit;
+   animation-iteration-count: infinite;
+}
+@keyframes tet{
+    0%{top: 100px;}
+    50%{top: 256px;}
+}
+.brown:hover{
+    animation-play-state: paused;
+    animation-iteration-count: calc(0.3);
+}
+.red:hover{
+    animation-play-state: paused;
+}
